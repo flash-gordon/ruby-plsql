@@ -69,5 +69,7 @@ module PLSQL
     def call_class
       PipelinedFunctionCall
     end
+
+    private :ensure_tmp_tables_created
   end
 end
